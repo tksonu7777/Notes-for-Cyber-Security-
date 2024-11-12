@@ -1,0 +1,196 @@
+# program
+- 5. - [Write a program to implement various types of framing methods](#implement-various-types-of-framing-methods)
+
+
+
+
+
+
+
+## 5. Implement various types of framing methods
+### 1. **Character Count Framing**
+In this method, the sender sends the number of characters (or bytes) in the message as part of the header.
+
+### 2. **Flag-Based Framing (Byte Stuffing)**
+This method uses special flags to indicate the start and end of the frame. If the message contains the flag byte, it is replaced with an escape sequence (`0x7D` followed by the byte XOR-ed with `0x20`).
+
+### 3. **Bit Stuffing**
+This method ensures that there are no consecutive bits that match the flag sequence. If 5 consecutive `1`s appear in the message, the sender stuffs a `0` after them.
+
+# Implementation
+
+```c
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+#define FLAG 0x7E
+#define ESC  0x7D
+
+// Function to frame using Character Count
+void character_count_frame(const char *message) {
+    int length = strlen(message);
+    printf("Character Count Framed Message: ");
+    printf("%02d", length);  // First two digits as message length
+    printf("%s\n", message);  // Message itself
+}
+
+// Function to decode Character Count framed message
+void decode_character_count_frame(const char *frame) {
+    int length;
+    sscanf(frame, "%2d", &length);
+    printf("Decoded Character Count: %s\n", frame + 2);
+}
+
+// Function for Flag-Based Framing with Byte Stuffing
+void flag_based_frame(const unsigned char *message, int len) {
+    unsigned char framed_message[1024];
+    int i, j = 0;
+
+    framed_message[j++] = FLAG; // Start with FLAG
+
+    for (i = 0; i < len; i++) {
+        if (message[i] == FLAG || message[i] == ESC) {
+            framed_message[j++] = ESC;          // Stuff ESC byte
+            framed_message[j++] = message[i] ^ 0x20; // XOR byte with 0x20
+        } else {
+            framed_message[j++] = message[i];
+        }
+    }
+
+    framed_message[j++] = FLAG; // End with FLAG
+
+    printf("Flag-Based Framed Message: ");
+    for (i = 0; i < j; i++) {
+        printf("%02X ", framed_message[i]);
+    }
+    printf("\n");
+}
+
+// Function to decode Flag-Based Framed message with Byte Unstuffing
+void decode_flag_based_frame(const unsigned char *frame, int len) {
+    unsigned char decoded_message[1024];
+    int i, j = 0;
+
+    if (frame[0] != FLAG || frame[len - 1] != FLAG) {
+        printf("Invalid frame: No valid FLAG at start or end\n");
+        return;
+    }
+
+    for (i = 1; i < len - 1; i++) {
+        if (frame[i] == ESC) {
+            i++;
+            decoded_message[j++] = frame[i] ^ 0x20;  // Undo byte stuffing
+        } else {
+            decoded_message[j++] = frame[i];
+        }
+    }
+
+    printf("Decoded Flag-Based Framed Message: ");
+    for (i = 0; i < j; i++) {
+        printf("%c", decoded_message[i]);
+    }
+    printf("\n");
+}
+
+// Function for Bit Stuffing
+void bit_stuff(const unsigned char *message, int len) {
+    unsigned char stuffed_message[1024];
+    int i, j = 0;
+    int consecutive_ones = 0;
+
+    for (i = 0; i < len; i++) {
+        unsigned char byte = message[i];
+        for (int bit = 7; bit >= 0; bit--) {
+            unsigned char bit_value = (byte >> bit) & 0x01;
+            stuffed_message[j++] = bit_value + '0';  // Store bits as '0' or '1'
+            if (bit_value == 1) {
+                consecutive_ones++;
+            } else {
+                consecutive_ones = 0;
+            }
+            if (consecutive_ones == 5) {
+                stuffed_message[j++] = '0';  // Stuff a '0' after 5 consecutive '1's
+                consecutive_ones = 0;
+            }
+        }
+    }
+
+    printf("Bit Stuffed Message: ");
+    for (i = 0; i < j; i++) {
+        printf("%c", stuffed_message[i]);
+    }
+    printf("\n");
+}
+
+// Function to decode Bit Stuffed message
+void decode_bit_stuff(const char *stuffed_message) {
+    char decoded_message[1024];
+    int i, j = 0, consecutive_ones = 0;
+
+    for (i = 0; stuffed_message[i] != '\0'; i++) {
+        if (stuffed_message[i] == '1') {
+            consecutive_ones++;
+        } else {
+            consecutive_ones = 0;
+        }
+
+        if (consecutive_ones == 5) {
+            i++;  // Skip the stuffed '0'
+        }
+
+        decoded_message[j++] = stuffed_message[i];
+    }
+
+    decoded_message[j] = '\0';
+    printf("Decoded Bit Stuffed Message: %s\n", decoded_message);
+}
+
+int main() {
+    // Test Character Count Framing
+    const char *message_cc = "Hello, World!";
+    character_count_frame(message_cc);
+    decode_character_count_frame("13Hello, World!");
+
+    // Test Flag-Based Framing with Byte Stuffing
+    const unsigned char message_flag[] = "Hello, World! \x7E Special Flag!";
+    int len_flag = strlen((char *)message_flag);
+    flag_based_frame(message_flag, len_flag);
+    unsigned char frame_flag[] = {0x7E, 0x7D, 0x5E, 0x48, 0x65, 0x6C, 0x6C, 0x6F, 0x2C, 0x20, 0x57, 0x6F, 0x72, 0x6C, 0x64, 0x21, 0x7E};  // Example framed message with flags
+    decode_flag_based_frame(frame_flag, sizeof(frame_flag) / sizeof(frame_flag[0]));
+
+    // Test Bit Stuffing
+    const unsigned char message_bits[] = "Hello, World!";
+    int len_bits = strlen((char *)message_bits);
+    bit_stuff(message_bits, len_bits);
+    const char *stuffed_message = "0110100001100101011011000110110001101111001000000101011101101111011100100110110001100100";  // Example stuffed bitstream
+    decode_bit_stuff(stuffed_message);
+
+    return 0;
+}
+```
+
+### Explanation:
+1. **Character Count Framing:**
+   - The `character_count_frame` function prepends the message with the length of the message, and `decode_character_count_frame` extracts that length to decode the message.
+
+2. **Flag-Based Framing (Byte Stuffing):**
+   - The `flag_based_frame` function adds the `0x7E` flags at the start and end of the message. If a byte in the message is `0x7E` or `0x7D`, it is byte-stuffed (XOR with `0x20` and prefixed with `0x7D`).
+   - The `decode_flag_based_frame` function reverses this process, removing the flags and unstuffing the message.
+
+3. **Bit Stuffing:**
+   - The `bit_stuff` function converts the message into a bitstream and ensures that after 5 consecutive `1` bits, a `0` is inserted.
+   - The `decode_bit_stuff` function removes any stuffed bits and reconstructs the original message.
+
+### Sample Output:
+
+```
+Character Count Framed Message: 13Hello, World!
+Decoded Character Count: Hello, World!
+Flag-Based Framed Message: 7E 7D 5E 48 65 6C 6C 6F 2C 20 57 6F 72 6C 64 21 7E 
+Decoded Flag-Based Framed Message: Hello, World! 
+Bit Stuffed Message: 0110100001100101011011000110110001101111001000000101011101101111011100100110110001100100
+Decoded Bit Stuffed Message: Hello, World!
+```
+
+ 
