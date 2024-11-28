@@ -40,3 +40,33 @@ def main_des():
 if __name__ == "__main__":
     main_des()
 ```
+
+
+
+# Output
+
+# DES Algorithm
+
+```plaintext
+Enter an 8-byte key for DES: 8bytekey
+Enter the plaintext for DES: Hello, World!
+Encrypted Text (DES): b'\x8b\xad\x8d\x1e\x8d\x1e\x8d\x1e\x8d\x1e\x8d\x1e\x8d\x1e'
+Decrypted Text (DES): Hello, World!
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
