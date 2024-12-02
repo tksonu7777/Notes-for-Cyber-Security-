@@ -1,0 +1,96 @@
+## **Experiment Title:**  
+### **Understanding Common Vulnerabilities in Web Applications: SQL Injection and Cross-Site Scripting (XSS)**  
+
+---
+
+### **Objective:**  
+To learn about web application security and understand how common vulnerabilities like SQL Injection and Cross-Site Scripting (XSS) can affect web applications.
+
+---
+
+### **Requirements:**  
+1. A computer with a modern web browser  
+2. A local development environment (e.g., XAMPP/WAMP/LAMP) or an online sandbox environment like [PortSwigger’s Web Security Academy](https://portswigger.net/web-security)  
+3. A vulnerable web application for testing (e.g., [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) or DVWA)  
+
+---
+
+### **Theory:**  
+
+#### **Web Application Security:**  
+Web application security focuses on protecting websites and online services from vulnerabilities that malicious actors might exploit. Some common vulnerabilities include SQL Injection and XSS.  
+
+#### **SQL Injection:**  
+SQL Injection occurs when an attacker inserts or manipulates SQL queries through input fields in a web application. This can lead to unauthorized access to a database, data theft, or modification.  
+
+##### **Example:**  
+A vulnerable login form:  
+```sql
+SELECT * FROM users WHERE username = 'admin' AND password = 'password';
+```
+
+An attacker could input:  
+```sql
+Username: admin' OR '1'='1  
+Password: anything
+```
+
+Resulting in:  
+```sql
+SELECT * FROM users WHERE username = 'admin' OR '1'='1' AND password = 'anything';
+```
+
+#### **Cross-Site Scripting (XSS):**  
+XSS attacks allow an attacker to inject malicious scripts into web pages viewed by other users. This can steal user sessions, deface websites, or redirect users.  
+
+##### **Example:**  
+A vulnerable comment box:  
+```html
+<input type="text" name="comment" />
+```
+
+An attacker could input:  
+```html
+<script>alert('XSS');</script>
+```
+
+---
+
+### **Experiment Steps:**  
+
+#### **Part 1: SQL Injection**  
+1. Set up a vulnerable web application (e.g., DVWA).  
+2. Navigate to the login page.  
+3. Enter the SQL payload:  
+   - Username: `admin' OR '1'='1`  
+   - Password: `anything`  
+4. Observe the behavior of the application.  
+5. Mitigation: Modify the backend code to use prepared statements or parameterized queries.  
+
+#### **Part 2: Cross-Site Scripting (XSS)**  
+1. Open a vulnerable page (e.g., a comment section).  
+2. Enter the script: `<script>alert('XSS');</script>`  
+3. Submit the input and observe if the script executes.  
+4. Mitigation: Use input sanitization, output encoding, and a Content Security Policy (CSP).  
+
+---
+
+### **Observations:**  
+- Record the behavior of the application when an SQL Injection or XSS payload is introduced.  
+- Note the potential impact on data security and user experience.  
+
+---
+
+### **Conclusion:**  
+This experiment demonstrates how SQL Injection and XSS vulnerabilities can compromise web application security. It also highlights the importance of implementing secure coding practices such as input validation, parameterized queries, and proper output encoding.  
+
+---
+
+### **References:**  
+1. OWASP Top 10 Vulnerabilities: [https://owasp.org/www-project-top-ten/](https://owasp.org/www-project-top-ten/)  
+2. Web Security Academy: [https://portswigger.net/web-security](https://portswigger.net/web-security)  
+3. SQL Injection Wiki: [https://en.wikipedia.org/wiki/SQL_injection](https://en.wikipedia.org/wiki/SQL_injection)  
+
+--- 
+
+This structured format can be adapted for RA (Research and Applications) assignments or laboratory manuals.
