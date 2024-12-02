@@ -94,3 +94,62 @@ This experiment demonstrates how SQL Injection and XSS vulnerabilities can compr
 --- 
 
 This structured format can be adapted for RA (Research and Applications) assignments or laboratory manuals.
+
+
+
+
+
+
+## **Experiment Title:**  
+**Understanding Web Application Vulnerabilities: SQL Injection and XSS**
+
+---
+
+### **Objective:**  
+Learn about web application security and understand common vulnerabilities like SQL Injection and Cross-Site Scripting (XSS).
+
+---
+
+### **Requirements:**  
+1. A vulnerable web app (e.g., DVWA, Juice Shop).  
+2. Local server setup (XAMPP, WAMP) or online sandbox (e.g., PortSwigger Web Academy).  
+
+---
+
+### **Theory:**  
+
+#### **SQL Injection (SQLi):**  
+- Exploits input fields to inject malicious SQL queries.  
+- **Example:**  
+  Input: `admin' OR '1'='1`  
+  Results in unauthorized database access.  
+- **Mitigation:** Use prepared statements or parameterized queries.  
+
+#### **Cross-Site Scripting (XSS):**  
+- Injects malicious scripts into web pages.  
+- **Example:** `<script>alert('XSS');</script>` steals data or disrupts user sessions.  
+- **Mitigation:** Input sanitization, output encoding, and CSP.  
+
+---
+
+### **Steps:**  
+
+1. **SQL Injection Test:**  
+   - Enter `admin' OR '1'='1` in a vulnerable login form and observe unauthorized access.  
+
+2. **XSS Test:**  
+   - Inject `<script>alert('XSS');</script>` into input fields and check if it executes.  
+
+3. **Apply Fixes:**  
+   - Use secure coding practices like input validation and parameterized queries.  
+
+---
+
+### **Conclusion:**  
+SQL Injection and XSS highlight critical web security flaws. Secure coding practices are vital to protect applications from such attacks.  
+
+---
+
+### **References:**  
+1. OWASP Top 10: [https://owasp.org/www-project-top-ten/](https://owasp.org/www-project-top-ten/)  
+2. PortSwigger Academy: [https://portswigger.net/web-security](https://portswigger.net/web-security)  
