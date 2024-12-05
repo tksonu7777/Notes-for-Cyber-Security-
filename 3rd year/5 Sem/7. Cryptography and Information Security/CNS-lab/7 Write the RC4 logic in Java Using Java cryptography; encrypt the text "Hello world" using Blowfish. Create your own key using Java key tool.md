@@ -98,4 +98,30 @@ public class BlowfishEncryption {
     }
 }
 ```
+
+
+
+# Output
+
+```
+Encrypted text: 5d2e19393cc5ef67b1f7e2d5a2c3e7b8
+Decrypted text: Hello world
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
