@@ -107,7 +107,51 @@ Substitution Key:  {'W': 'T', 'K': 'H', 'L': 'I', 'Q': 'S', 'H': 'N', 'G': 'O', 
 
 
 
+# 4 
 
+
+```py
+
+def dummy_block_cipher(block, key):
+    # Simple dummy block cipher: XOR each character with the key
+    return ''.join(chr(ord(c) ^ ord(k)) for c, k in zip(block, key))
+
+def cbc_mac(message, key, block_size=8):
+    # Pad the message
+    padding_length = (block_size - len(message) % block_size) % block_size
+    padded_message = message + (chr(padding_length) * padding_length)
+
+    # Initialize MAC with IV (initial value)
+    mac = '\x00' * block_size
+
+    # Process each block
+    for i in range(0, len(padded_message), block_size):
+        block = padded_message[i:i + block_size]
+        # XOR the block with the current MAC value
+        block_xor = ''.join(chr(ord(b) ^ ord(m)) for b, m in zip(block, mac))
+        # Encrypt using the dummy block cipher
+        mac = dummy_block_cipher(block_xor, key)
+
+    return mac
+
+# Example usage
+if __name__ == "__main__":
+    key = "key12345"  # Key must be the same length as the block size
+    message = "Hello, World!"
+    
+    mac_tag = cbc_mac(message, key)
+    print("CBC-MAC Tag:", mac_tag)
+
+```
+
+
+# output
+```
+CBC-MAC Tag: <some string>
+```
+```
+CBC-MAC Tag: ȀȁȂȃȄȅȆȇ
+```
 
 
 
