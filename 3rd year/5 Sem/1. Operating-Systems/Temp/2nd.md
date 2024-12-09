@@ -184,3 +184,11 @@ Disk management involves efficient allocation, reading, writing, and organizatio
 
 A disk scheduling example could involve calculating the time taken for a disk to move from one track to another, considering seek time and rotational latency.
 
+
+
+
+
+
+
+
+
