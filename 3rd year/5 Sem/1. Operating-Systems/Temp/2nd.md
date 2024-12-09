@@ -1,6 +1,7 @@
  
 
 # 1. File System 
+- [File System](https://www.javatpoint.com/os-file-system)
 # 2. thrashing 
 [Thrashing](https://www.javatpoint.com/what-is-thrash)
 # 3. Segmentation
