@@ -4,6 +4,7 @@
 # 2. thrashing 
 [Thrashing](https://www.javatpoint.com/what-is-thrash)
 # 3. Segmentation
+- [Segmentation](https://www.javatpoint.com/os-segmentation)
 # 4. Access Matrix 
 - https://www.javatpoint.com/protection-in-operating-system
 - https://www.tutorialspoint.com/protection-and-security-in-operating-system
