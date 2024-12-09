@@ -12,6 +12,7 @@
 # 5. use Authentication
 - [use Authentication](https://www.javatpoint.com/user-authentication)
 # 6. Demand Pagging
+- [Demand Pagging](https://www.javatpoint.com/os-demand-paging)
 # 7. Numerical 
  #         1. Virtual 
  #         2. Disk managment 
