@@ -2,14 +2,18 @@
 
 # 1. File System 
 # 2. thrashing 
+[Thrashing](https://www.javatpoint.com/what-is-thrash)
 # 3. Segmentation
-# 4. Access Matrix
+# 4. Access Matrix 
+- https://www.javatpoint.com/protection-in-operating-system
+- https://www.tutorialspoint.com/protection-and-security-in-operating-system
 # 5. use Authentication
 # 6. Demand Pagging
 # 7. Numerical 
  #         1. Virtual 
  #         2. Disk managment 
 
+## [Virtual Memory ,Demand Paging,](https://www.javatpoint.com/os-virtual-memory)
 ```
 In operating system subject Explain all topic in deep detailed 
 
