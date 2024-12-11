@@ -33,7 +33,16 @@
 - Ther is one more CART algorithm which uses the Gini index to build trees.
 
 
+__________
+__________
+__________
+__________
+__________
+__________
+__________
+__________
 
+[Ref](https://machinelearningprojects.net/decision-trees/)
 
 
 
