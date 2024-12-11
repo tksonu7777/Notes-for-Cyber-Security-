@@ -43,3 +43,22 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+___
+____
+___
+____
+____
+[refrance](https://machinelearningprojects.net/k-nearest-neighbors/)
+
+
