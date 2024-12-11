@@ -21,4 +21,5 @@ https://kp.kiit.ac.in/pdf_files/06/6th-Sem_Cse_DATA-SCIENCE-ANALYTICS_SM-O.pdf
 
 
 - pdf
+- https://mrcet.com/downloads/digital_notes/CSE/IV%20Year/MACHINE%20LEARNING(R17A0534).pdf
 - https://mrcet.com/downloads/digital_notes/CSE/II%20Year/DS/Introduction%20to%20Datascience%20[R20DS501].pdf
