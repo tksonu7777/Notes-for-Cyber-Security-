@@ -13,6 +13,17 @@ https://www.studocu.com/in/document/medi-caps-university/information-security/in
 ---
 ---
 
+
+
+![Information Security Management (ISM) Overview (1)](https://github.com/user-attachments/assets/4c721f3d-c858-4c27-97da-b5f976f92bce)
+
+
+
+---
+---
+---
+---
+
 ![Information Security Management (ISM) Overview](https://github.com/user-attachments/assets/8e88bc2d-b426-43e1-b648-30fa100daf35)
 
 ---
