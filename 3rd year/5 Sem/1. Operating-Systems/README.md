@@ -38,25 +38,25 @@
 ![yuZ8-Mcg](https://github.com/user-attachments/assets/6ebeae14-b286-452b-a2c4-94da4f18c410)
 ![LQyPnytM](https://github.com/user-attachments/assets/60ab37b7-4f67-489f-b345-d5fb0c2662e4)
 ![kkyTJ06Y](https://github.com/user-attachments/assets/4c99fec4-1562-4956-b415-a8d323bb77a9)
-![yi_MAhS8](https://github.com/user-attachments/assets/f6affc47-6fe6-4275-a28d-823b6c17d7c5)
+![yi_MAhS8](https://github.com/user-attachments/assets/f6affc47-6fe6-4275-a28d-823b6c17d7c5)   <!--# Pagging-->
 ![Lw_OjNOw](https://github.com/user-attachments/assets/bdac1a69-a661-414b-a1df-64e205c0baef)
 ![bmvE5c9g](https://github.com/user-attachments/assets/e4f02c09-1c95-4ce9-9d3e-f8b2d5b0cc69)
-![nFvkdSGk](https://github.com/user-attachments/assets/5cdf1cfe-b05a-4598-b11f-cde048ab396c)
+![nFvkdSGk](https://github.com/user-attachments/assets/5cdf1cfe-b05a-4598-b11f-cde048ab396c)    <!--# Virtual memory-->
 ![NkEmp6bg](https://github.com/user-attachments/assets/80aba5a9-3cb1-4ee9-96b0-c08b1c9db6ef)
-![GzlIEA0M](https://github.com/user-attachments/assets/ae5ffa72-5acd-4e01-a55c-470d58c360a7)
-![rS0ESB2Q](https://github.com/user-attachments/assets/26d44ef7-5829-47d8-a7f3-2ecbf23e70a4)
-![BwJskqLA](https://github.com/user-attachments/assets/6c8338f5-db89-4907-9a05-40c6a3beb4da)
+![GzlIEA0M](https://github.com/user-attachments/assets/ae5ffa72-5acd-4e01-a55c-470d58c360a7)    <!--# PAGE replacement -->
+![rS0ESB2Q](https://github.com/user-attachments/assets/26d44ef7-5829-47d8-a7f3-2ecbf23e70a4)     <!--# FIFO -->
+![BwJskqLA](https://github.com/user-attachments/assets/6c8338f5-db89-4907-9a05-40c6a3beb4da)      <!--# LRU-->
 ![DpH_85Fw](https://github.com/user-attachments/assets/ba6dec4e-918f-4eef-9f71-f1f1c95963d7)
 ![i0aoh5mU](https://github.com/user-attachments/assets/b5d0d473-cd8e-4a79-97d5-27c7634b717e)    <!--# File Management-->
 ![Mw8OecuI](https://github.com/user-attachments/assets/7e43e59f-022a-4f56-9fcb-ecc0f5630f46)
 ![zMYHrpCA](https://github.com/user-attachments/assets/6d9f93d6-637d-40a9-84aa-35ed94417ae9)
 ![AnHn81hQ](https://github.com/user-attachments/assets/4ff2b01a-8f01-4e8d-896c-8d489b4101e1)
 ![m-mohJlw](https://github.com/user-attachments/assets/f9f27fbf-8bee-47a8-b8d0-6d8c88468f95)
-![gNFzD7Sw](https://github.com/user-attachments/assets/29d98f54-d6b1-45ff-b26f-fc1e5e7afe20)
+![gNFzD7Sw](https://github.com/user-attachments/assets/29d98f54-d6b1-45ff-b26f-fc1e5e7afe20)    <!--# Disk Management-->
 ![jMJmMUVk](https://github.com/user-attachments/assets/bdd8cae8-f320-467b-a18c-986556b091e2)
 ![CB_QlXRE](https://github.com/user-attachments/assets/3176ff66-9756-4701-9369-f6f6afc6fbe1)
 ![HANC0LrM](https://github.com/user-attachments/assets/9f453bcd-9b08-41df-9953-5462aa619db3)
-![Cyr6m0cs](https://github.com/user-attachments/assets/21a9a383-756d-470c-90da-cf58ddb6ac77)
+![Cyr6m0cs](https://github.com/user-attachments/assets/21a9a383-756d-470c-90da-cf58ddb6ac77)     <!--# Disk Scheduling Algorith -->
 ![KHzP52jc](https://github.com/user-attachments/assets/4fe409fe-5db2-4322-94d5-0740798d5b75)
 ![4JTMVLQY](https://github.com/user-attachments/assets/a9ad1a4a-f2db-4275-bfa7-60a0b6205842)
 ![S9c1xdwk](https://github.com/user-attachments/assets/26f0a1c6-2af7-49b3-bde4-8a7b9ad473e9)
