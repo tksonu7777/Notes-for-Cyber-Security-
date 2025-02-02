@@ -129,7 +129,7 @@ This line tells the CPU to add the contents of register R2 and R3 and store the 
 
 ## **Chapter 5: Pipeline and Vector Processing**
 
-### **18. What is Flynn’s Taxonomy?**
+### **18. What is Flynn’s Taxonomy?**  [Go](https://www.geeksforgeeks.org/computer-architecture-flynns-taxonomy/)
 **Answer:** A classification of computer architectures based on instruction and data streams (SISD, SIMD, MISD, MIMD).
 
 ### **19. Explain the concept of pipelining.**
