@@ -27,8 +27,8 @@
 |        | 4.5 Data Transfer and Manipulation                                                                              |       |
 |        | 4.6 Program Control                                                                                            |       |
 |        | 4.7 Reduced Instruction Set Computer (RISC) and Complex Instruction Set Computer (CISC).                     |       |
-| 5      | **Pipeline and Vector Processing:**                                                                            |       |
-|        | 5.1 Flynn's Taxonomy                                                                                            |       |
+| 5      | **Pipeline and Vector Processing:**                                                                            | [GO](https://www.javatpoint.com/pipelining)      |
+|        | 5.1 Flynn's Taxonomy                                                                                            | [Go](https://www.geeksforgeeks.org/computer-architecture-flynns-taxonomy/)      |
 |        | 5.2 Parallel Processing                                                                                          |       |
 |        | 5.3 Pipelining                                                                                                   |       |
 |        | 5.4 Arithmetic Pipeline                                                                                          |       |
