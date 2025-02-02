@@ -10,3 +10,8 @@
 | Computer Organization and Architecture               | 6    |                               |
 | Cryptography and Information Security                | 11   |       23                      |
 | Risk Analysis Lab                                    |      |       24                      |
+
+
+
+
+![image](https://github.com/user-attachments/assets/1d42b584-c063-4e45-ab06-ed7adeab33bf)
