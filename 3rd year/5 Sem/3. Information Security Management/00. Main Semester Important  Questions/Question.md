@@ -62,4 +62,6 @@
 21. How does an organization ensure security awareness and education for employees?  
 22. Explain the importance of industrial control systems and their security challenges.  
 
+
+### Visit for GPT [GO](https://chatgpt.com/share/679f7dd8-b12c-800a-a2d1-c8541ee8727e)
  
