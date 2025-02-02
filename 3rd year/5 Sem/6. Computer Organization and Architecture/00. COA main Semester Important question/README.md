@@ -132,7 +132,7 @@ This line tells the CPU to add the contents of register R2 and R3 and store the 
 ### **18. What is Flynn’s Taxonomy?**  [Go](https://www.geeksforgeeks.org/computer-architecture-flynns-taxonomy/)
 **Answer:** A classification of computer architectures based on instruction and data streams (SISD, SIMD, MISD, MIMD).
 
-### **19. Explain the concept of pipelining.**
+### **19. Explain the concept of pipelining.** [GO](https://www.javatpoint.com/pipelining)
 **Answer:** Pipelining is an execution technique where multiple instructions are overlapped in execution stages to improve performance.
 
 ### **20. How does an arithmetic pipeline work?**
