@@ -3,7 +3,7 @@
 | S. No. | Contents                                                                                                       | Hours |
 |--------|----------------------------------------------------------------------------------------------------------------|-------|
 | 1      | **Introduction:** Objective, scope and outcome of the course.                                               | 1     |
-| 2      | **Register Transfer and Micro-operations:**                                                                  |       |
+| 2      | **Register Transfer and Micro-operations:**                                                                  | [GO](https://www.javatpoint.com/coa-register-transfer)       |
 |        | 2.1 Register Transfer Language (RTL)                                                                          |       |
 |        | 2.2 Bus and Memory Transfers                                                                                   |       |
 |        | 2.3 Arithmetic Micro-Operations                                                                               |       |
