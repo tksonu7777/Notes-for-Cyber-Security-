@@ -1,3 +1,7 @@
+
+###  [COA2023 queasion paper solution ](https://chatgpt.com/share/679ee4ce-ddb0-800b-82ad-b0e3d2e291b7)
+
+
 **Computer Organization and Architecture**
 
 ---
