@@ -102,7 +102,7 @@ print(etable)
 
 ## if you got any warning 
 ## add this 
-```
+```py
 warnings.filterwarnings("ignore", category=FutureWarning)
 warnings.filterwarnings("ignore", module="seaborn._oldcore")
 ```
