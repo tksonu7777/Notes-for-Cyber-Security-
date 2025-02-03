@@ -3,7 +3,7 @@
 
 
 
- ```
+ ```py
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -108,7 +108,7 @@ warnings.filterwarnings("ignore", module="seaborn._oldcore")
 ```
 
 # updated code 
-```
+```py
 
 import pandas as pd
 import numpy as np
