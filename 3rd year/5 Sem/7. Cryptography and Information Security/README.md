@@ -1,6 +1,6 @@
 # READ
-[Book covers all Topic](https://www.cse.iitk.ac.in/users/nitin/courses/WS2010-ref1.pdf)
-[GO](https://www.iare.ac.in/sites/default/files/lecture_notes/IARE_IS_LECTURE_NOTES_0.pdf)
+- ### [Book covers all Topic](https://www.cse.iitk.ac.in/users/nitin/courses/WS2010-ref1.pdf)
+- ### [GO](https://www.iare.ac.in/sites/default/files/lecture_notes/IARE_IS_LECTURE_NOTES_0.pdf)
 
 
 
