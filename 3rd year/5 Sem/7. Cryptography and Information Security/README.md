@@ -1,3 +1,15 @@
+# READ
+[Book covers all Topic](https://www.cse.iitk.ac.in/users/nitin/courses/WS2010-ref1.pdf)
+[GO](https://www.iare.ac.in/sites/default/files/lecture_notes/IARE_IS_LECTURE_NOTES_0.pdf)
+
+
+
+
+
+
+
+
+
 
 ### Security Concepts
 1. **What is the importance of security in information systems, and what are the potential consequences of security breaches?**
