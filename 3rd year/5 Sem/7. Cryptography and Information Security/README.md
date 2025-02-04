@@ -28,12 +28,12 @@
 - ### RC4  [Cryptography - RC4 Algorithm](https://www.tutorialspoint.com/cryptography/cryptography_rc4_algorithm.htm)
 
 
-### Asymmetric key Ciphers:  []()
+### Asymmetric key Ciphers:  
 - ### Principles of public key cryptosystems, []()
-- ### RSA algorithm, []()
-- ### Elgamal Cryptography, []()
-- ### Diffie-Hellman Key Exchange, []()
-- ###  Knapsack Algorithm  []()
+- ### RSA algorithm, [RSA(Rivest-Shamir-Adleman) Algorithm](https://www.javatpoint.com/rsa-encryption-algorithm)
+- ### Elgamal Cryptography, [ElGamal Encryption Algorithm](https://www.geeksforgeeks.org/elgamal-encryption-algorithm/)
+- ### Diffie-Hellman Key Exchange, [Diffie-Hellman Key Exchange](https://www.tutorialspoint.com/the-diffie-hellman-key-exchange)
+- ###  Knapsack Algorithm  [Knapsack Algorithm](https://www.tutorialspoint.com/knapsack-encryption-algorithm-in-cryptography)
 
 ---
 ---
