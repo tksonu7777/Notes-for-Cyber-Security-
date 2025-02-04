@@ -293,10 +293,7 @@ max         1.000000
 5  45-54   34007      64288       322109    3232
 6  55-64   23988      44738       224688    4556
 7    65+   10445      28753       144120    4350
-<ipython-input-29-00d3115e51c8>:21: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
-  age_summary = data1.groupby('agecat')['Age'].apply(siterange).reset_index()
-<ipython-input-29-00d3115e51c8>:25: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
-  summary = data1.groupby('agecat').agg({
+ 
 ```
 ---
 ![image](https://github.com/user-attachments/assets/6854141a-fca5-471c-a531-b7e3edc3a2bf)
