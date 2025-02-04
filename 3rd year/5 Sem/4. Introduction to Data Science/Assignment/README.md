@@ -256,7 +256,7 @@ print(etable)
 
 # Output
 ```
-                 Age         Gender    Impressions         Clicks  \
+                 Age         Gender    Impressions         Clicks  
 count  458441.000000  458441.000000  458441.000000  458441.000000   
 mean       29.482551       0.367037       5.007316       0.092594   
 std        23.607034       0.481997       2.239349       0.309973   
