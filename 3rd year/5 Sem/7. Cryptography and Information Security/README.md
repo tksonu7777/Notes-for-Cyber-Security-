@@ -3,16 +3,15 @@
 - ### [GO](https://www.iare.ac.in/sites/default/files/lecture_notes/IARE_IS_LECTURE_NOTES_0.pdf)
 
 
-
-
-
-
-
+<details>
+ <summary>Click to see the Syllabus</summary>
+ 
+---
+---
 ![image](https://github.com/user-attachments/assets/24680a34-928f-46a5-8b8b-1e9ebd86087a)
-
-
-
-
+ 
+ 
+</details>
 ---
 ---
 
@@ -39,16 +38,16 @@
 ---
 
 ## 5 Transport-level Security:  
-- ### Web security considerations,  
-- ### Secure Socket Layer and Transport Layer Security,  
-- ### HTTPS,  
-- ### Secure Shell (SSH).
+- ### Web security considerations,  [Website Security Consideration](https://www.tutorialspoint.com/internet_technologies/website_security.htm)
+- ### Secure Socket Layer and Transport Layer Security,     [Secure Socket Layer and Transport Layer Security](https://www.geeksforgeeks.org/difference-between-secure-socket-layer-ssl-and-transport-layer-security-tls/)
+- ### HTTPS,     [HTTPS](https://www.geeksforgeeks.org/explain-working-of-https/)
+- ### Secure Shell (SSH).    [Secure Shell (SSH)](https://www.tutorialspoint.com/cryptography/cryptography_ssh_protocol.htm)
 
 ### Wireless Network Security:  
-- ### Wireless Security,  
-- ### Mobile Device Security, 
-- ###  IEEE 802.11 Wireless LAN,  
-- ### IEEE 802.11i Wireless LAN Security.
+- ### Wireless Security,     []()
+- ### Mobile Device Security,   []()
+- ###  IEEE 802.11 Wireless LAN,    []()
+- ### IEEE 802.11i Wireless LAN Security.     []()
 
 
 
