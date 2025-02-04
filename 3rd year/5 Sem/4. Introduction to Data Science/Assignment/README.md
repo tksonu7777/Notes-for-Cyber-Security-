@@ -3,6 +3,28 @@
  ---
  
 
+# Exercise: EDA :
+## Exploratory Data Analysis (EDA) exercise,
+## By exploring distributions and creating new variables, you can gain a deeper understanding of the dataset, which will inform later stages of data analysis
+
+### examining user behaviour from New York Times data
+
+
+### Task
+- Create an age_group variable:
+- Single-day analysis: For a single day's worth of data, you are to perform the following tasks
+
+- Plotting distributions: 
+- User segmentation:
+- Extending analysis across days:
+
+
+
+
+
+
+
+
 
 # Down load Data set
 [click here to Download dataset](https://github.com/Notes4Cyber/College-note/blob/main/3rd%20year/5%20Sem/4.%20Introduction%20to%20Data%20Science/Assignment/Dataset/nyt1.csv)
