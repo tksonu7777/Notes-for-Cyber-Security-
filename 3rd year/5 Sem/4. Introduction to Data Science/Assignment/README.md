@@ -1,11 +1,28 @@
 # 22CYBER33  
-
+ ---
+ ---
+ 
 
 
 # Down load Data set
+[click here to Download dataset](https://github.com/Notes4Cyber/College-note/blob/main/3rd%20year/5%20Sem/4.%20Introduction%20to%20Data%20Science/Assignment/Dataset/nyt1.csv)
 
 
+## after downlaoded data set 
+- ### I am using google colab or kaggle
+- ## for colab
+- ## connect google drive with colab
+```py
+from google.colab import drive
+drive.mount('/content/drive')
 
+```
+## allow and continue 
+## check the working directory
+```
+!ls '/content/drive'
+```
+## select he data set and add path to your directory 
 
  ```py
 
