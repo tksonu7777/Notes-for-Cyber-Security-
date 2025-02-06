@@ -1,4 +1,7 @@
+[Answers]( https://github.com/Notes4Cyber/College-note/blob/main/3rd%20year/5%20Sem/2.%20Computer-Networks/00.%20CN%20Question%20paper/CN%202023-2024.pdf)
 
+---
+---
 
 
 ![image](https://github.com/user-attachments/assets/4ec92ffa-ed2b-4630-942a-98406b0054d6)
