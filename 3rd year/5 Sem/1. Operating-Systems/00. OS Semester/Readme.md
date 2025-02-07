@@ -14,3 +14,23 @@
 
 
 </details>
+
+
+---
+---
+<details>
+  <summary>OS 2020</summary>
+
+
+---
+---
+
+![image](https://github.com/user-attachments/assets/2d50bc25-98eb-47b0-af5a-5f174f6899ce)
+![image](https://github.com/user-attachments/assets/88dafcc5-5f56-495b-b19d-113e09aead09)
+![image](https://github.com/user-attachments/assets/4cf859f8-30a7-48a0-8a2a-0a3ad37896b7)
+
+
+
+
+</details>
+
