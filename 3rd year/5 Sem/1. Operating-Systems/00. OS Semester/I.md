@@ -7,4 +7,5 @@
 -  at  37
 ## Q 7 What is Semaphore? and differnce B/T Counting Semaphore vs. Binary Semaphore:
 - 46
-## Q 8  
+## Q 8  Classic Problems of Synchronization:
+- 52
