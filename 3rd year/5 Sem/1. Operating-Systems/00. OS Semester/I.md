@@ -5,3 +5,6 @@
 ##   Q5. race condition.
 ##  Q 6 What is the Critical Section?  
 -  at  37
+## Q 7 What is Semaphore?
+- 46
+## Q 8 
