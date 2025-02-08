@@ -1,3 +1,23 @@
+<details>
+  <summary>click to see syllabus </summary>
+
+---
+---
+![image](https://github.com/user-attachments/assets/72c1d6d0-df32-41e5-9cbd-baf8d40908e6)
+![image](https://github.com/user-attachments/assets/1babe77a-e1f7-4eda-bbde-e6b3e31118a6)
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
 # OS 
 # Topics covered In this PDF :
 - Overview
