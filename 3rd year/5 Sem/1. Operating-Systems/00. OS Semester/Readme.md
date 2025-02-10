@@ -43,6 +43,7 @@
 
 
 ---
+[Go](https://chatgpt.com/share/67a9957c-bcd0-8012-9458-9e67d73057fe)
 ---
 
 ![image](https://github.com/user-attachments/assets/2d50bc25-98eb-47b0-af5a-5f174f6899ce)
