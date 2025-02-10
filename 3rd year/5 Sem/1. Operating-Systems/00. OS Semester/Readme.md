@@ -63,7 +63,7 @@
 ---
 ---
 
-
+```
     
                                                                      PART-A
 
@@ -168,17 +168,7 @@ Q.5 Explain the following with suitable diagrams-
 (iii) Various file access methods
 
 
-
-
-
-
-
-
-
-
-
-
-
+```
 
 
 
