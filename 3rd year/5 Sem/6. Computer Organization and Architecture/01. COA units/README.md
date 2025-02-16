@@ -8,7 +8,7 @@
 
 ### **2. Register Transfer and Micro-operations**  
 - Define Register Transfer Language (RTL) with examples.  
-- Explain bus and memory transfers with neat diagrams.  
+- Explain bus and memory transfers with neat diagrams.  [GO](https://www.tpointtech.com/coa-bus-and-memory-transfers)
 - Differentiate between arithmetic, logic, and shift micro-operations.  
 - Design an arithmetic logic shift unit (ALU) and explain its functioning.  
 
@@ -16,14 +16,14 @@
 
 ### **3. Basic Computer Organization and Design**  
 - Describe the components of a basic computer organization.  
-- Explain the instruction cycle with the help of a timing diagram.  
-- Differentiate between register-reference and memory-reference instructions with examples.  
+- Explain the instruction cycle with the help of a timing diagram.  [GO](https://www.tpointtech.com/instruction-cycle)
+- Differentiate between register-reference and memory-reference instructions with examples. 
 - Explain the concept of input-output and interrupts in computer systems.  
-- Design and explain the control logic for a basic computer.  
+- Design and explain the control logic for a basic computer.  [GO](https://www.tpointtech.com/control-logic-gates) 
 
 ---
 
-### **4. Central Processing Unit (CPU)**  
+### **4. Central Processing Unit (CPU)**  [GO]()
 - Compare and contrast general register organization and stack organization.  
 - Explain different types of addressing modes with examples.  
 - Describe the difference between RISC and CISC architectures.  
@@ -32,11 +32,11 @@
 
 ---
 
-### **5. Pipeline and Vector Processing**  
-- Explain Flynn's taxonomy with suitable examples.  
-- What is pipelining? Describe the stages of instruction pipelining.  
+### **5. Pipeline and Vector Processing**   []()
+- Explain Flynn's taxonomy with suitable examples.  [GO](https://www.tutorialspoint.com/what-is-flynn-s-taxonomy-in-computer-architecture)
+- What is pipelining? Describe the stages of instruction pipelining.  [GO](https://www.tpointtech.com/pipelining)
 - Compare arithmetic and instruction pipelines.  
-- Explain Booth's multiplication algorithm with an example.  
+- Explain Booth's multiplication algorithm with an example.  [GO](https://www.tpointtech.com/booths-multiplication-algorithm-in-coa)
 - Perform signed magnitude binary multiplication using the array multiplier.  
 - Discuss the division algorithm with a suitable example.  
 
