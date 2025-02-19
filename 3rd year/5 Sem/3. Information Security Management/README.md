@@ -1,3 +1,17 @@
+
+<details>
+ <summary>ISM Syllabus</summary>
+
+---
+---
+![image](https://github.com/user-attachments/assets/1defcef4-605a-4230-b9f5-2a2c854d8317)
+
+</details>
+
+---
+---
+
+
 # url
 ## 1. 
 https://www.kavery.org.in/engg/cse-ecourse/IT2042-IS.pdf
