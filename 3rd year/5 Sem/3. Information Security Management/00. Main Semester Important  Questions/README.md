@@ -1,3 +1,17 @@
+<details>
+  <summary>ISM 2024 Question paper</summary>
+
+---
+---
+
+
+</details>
+
+---
+---
+
+
+
 ```
                                  Part - A
 
